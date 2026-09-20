@@ -1,0 +1,8 @@
+# Google Colab には torch / numpy / pandas / matplotlib が入っているので、
+# 実際にインストールされるのは主に gradio と matplotlib-fontja です。
+torch>=2.0
+numpy
+pandas
+matplotlib
+matplotlib-fontja   # グラフの日本語表示用（入らなくても動くが、ラベルが英語になる）
+gradio>=5.0
